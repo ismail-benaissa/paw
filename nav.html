@@ -1,0 +1,128 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nav-style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+       <a href="#" class="logo">ADVENTURE</a>
+
+       <div class="nav-link">
+        <ul>
+            <li><a href="#" class="active" >Home </a></li>
+            <li><a href="#">contact </a></li>
+            <div class="dropbuton">
+                    <button>categorie</button>
+                    <div class="content">
+                        <a href="#">sous onglet 1</a>
+                        <a href="#">sous onglet 1</a>
+                        <a href="#">sous onglet 1</a>
+                    </div>
+            </div>
+           <!--<li><a href="#">Nouveaute</a></li>--> 
+            <li><a href="#">Nauveaute</a></li>
+        </ul>
+       </div>
+        
+       <img src="img/menu-btn.png" alt="menu" class="menu">
+
+    </nav>
+
+    <div class="containers">
+        <div class="responsive-div">
+            <!-- Contenu de la première div réactive -->
+                <div class="card">
+                    <div class="imag">
+                            <a href="#">
+                                <img src="img/4.PNG" alt="">
+                            </a>
+                            <br>
+                            <h2>Baked feta with shrimp</h2>
+                            <p>
+                                <br>
+                                fjvbevbkjesbdruehvbdsfj fdkv dfwkjh b
+                            </p>
+                    </div>
+                </div>
+        </div>
+
+        <div class="responsive-div">
+                <!-- Contenu de la deuxième div réactive -->
+                <div class="card">
+                    <div class="imag">
+                        <a href="#">
+                            <img src="img/menu-btn.png" alt="">
+                        </a>
+                        <h2>Baked feta with shrimp</h2>
+                        <p>
+                            <br>
+                            fjvbevbkjesbdruehvbdsfj fdkv dfwkjh b
+                        </p>
+                    </div>
+                </div>
+        </div>
+
+        <div class="responsive-div">
+            <!-- Contenu de la deuxième div réactive -->
+            <div class="card">
+                <div class="imag">
+                    <a href="#">
+                        <img src="img/menu-btn.png" alt="">
+                    </a>
+                    <h2>Baked feta with shrimp</h2>
+                    <p>
+                        <br>
+                        fjvbevbkjesbdruehvbdsfj fdkv dfwkjh b
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="responsive-div">
+            <!-- Contenu de la deuxième div réactive -->
+            <div class="card">
+                <div class="imag">
+                    <a href="#">
+                        <img src="img/menu-btn.png" alt="">
+                    </a>
+                    <h2>Baked feta with shrimp</h2>
+                    <p>
+                        <br>
+                        fjvbevbkjesbdruehvbdsfj fdkv dfwkjh b
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="responsive-div">
+            <!-- Contenu de la deuxième div réactive -->
+            <div class="card">
+                <div class="imag">
+                    <a href="#">
+                        <img src="img/menu-btn.png" alt="">
+                    </a>
+                    <h2>Baked feta with shrimp</h2>
+                    <p>
+                        <br>
+                        fjvbevbkjesbdruehvbdsfj fdkv dfwkjh b
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+            const menu = document.querySelector(".menu")
+            const navLinks = document.querySelector(".nav-link")
+ 
+        menu.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
+    </body>
+</html>
